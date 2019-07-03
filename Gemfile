@@ -6,11 +6,11 @@ ruby '2.5.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
-# gem 'sqlite3'
+gem 'sqlite3'
 gem 'puma', '~> 3.11'
-gem 'pg', '~> 0.18.4'
-gem 'activerecord', '~> 5.0', '>= 5.0.0.1'
-gem 'activerecord-postgresql-adapter', '~> 0.0.1'
+# gem 'pg', '~> 0.18.4'
+# gem 'activerecord', '~> 5.0', '>= 5.0.0.1'
+# gem 'activerecord-postgresql-adapter', '~> 0.0.1'
 # Use Puma as the app server
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
@@ -55,9 +55,9 @@ group :test do
   gem 'database_cleaner'
 end
 
-group :production do 
-  gem 'pg', '~> 0.18.4'
-end
+# group :production do 
+#   gem 'pg', '~> 0.18.4'
+# end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
