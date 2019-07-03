@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+item = Item.create(name: 'Go grocery shopping')
+
+todo1 = Todo.create(title: 'Todo1', created_by: 'EJ') 
+todo2 = Todo.create(title: 'Todo2', created_by: 'EJ') 
+todo3 = Todo.create(title: 'Todo3', created_by: 'EJ') 
+todo4 = Todo.create(title: 'Todo4', created_by: 'EJ') 
+todo5 = Todo.create(title: 'Todo5', created_by: 'EJ') 
+todo6 = Todo.create(title: 'Todo6', created_by: 'EJ') 
+todo7 = Todo.create(title: 'Todo7', created_by: 'EJ') 
