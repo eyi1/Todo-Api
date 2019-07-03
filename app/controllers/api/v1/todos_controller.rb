@@ -1,5 +1,6 @@
 module Api::V1
     class TodosController < ApplicationController
+     
       class Todo < ::Todo
         def as_json(options={})
           super.merge(title: name)
